@@ -451,6 +451,7 @@ navigation-link:hover {
     margin-left: 8rem;
     padding: 7rem;
     background-color: #15141b;
+    outline: none;
 }
 .customer-paragraph {
     font-size: 1.6rem;
