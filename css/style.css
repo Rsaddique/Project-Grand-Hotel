@@ -199,7 +199,7 @@ navigation-link:hover {
 }
 .brand {
     display: flex;
-    pointer : cursor;
+    pointer-events: cursor;
 }
 .hotel-heading {
     font-weight: 400;
@@ -314,7 +314,7 @@ navigation-link:hover {
     cursor: pointer;
     color: #b85d1c;
 }
-    font-family: 'montserrat', sans-serif;
+    /* font-family: 'montserrat', sans-serif; */
 
 .btn-arrow {
     margin-left: .5rem;
@@ -586,7 +586,7 @@ navigation-link:hover {
         flex-direction: column;
         align-items: center;
     }
-    .customer-card: :first-child{
+    .customer-card :first-child{
         margin-bottom: 3rem;
     }
     .main-part {
